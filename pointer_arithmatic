@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{int a,b,c,sum;
+  int *x,*y,*z;
+  scanf("%d %d %d",&a,&b,&c);
+  x=&a;
+  y=&b;
+  z=&c;
+  sum=*x+*y+*z;
+  printf("result=%d",sum);
+ 
+ 
+    return 0;
+}
